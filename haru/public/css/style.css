@@ -1,5 +1,7 @@
 @import url(reset.css);
 @import url(search.css);
+@import url(hot_issue.css);
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&display=swap");
 body {
   display: flex;
   flex-direction: column;
@@ -36,19 +38,31 @@ body {
   width: 100%;
   height: 100px;
   display: flex;
+  align-items: center;
 }
 
 .logo_wrapper {
-  width: 170px;
-  background-color: yellowgreen;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-shadow: 1px 1px 1px pink;
+  border-radius: 20px;
+}
+.logo_wrapper .logo {
+  color: darkblue;
+  font-size: 28px;
+  font-family: "Black Han Sans", sans-serif;
 }
 
 .like_nav {
-  width: 100px;
+  width: 85px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 22px;
 }
 .like_nav .like_nav_title {
   font-size: 8px;
@@ -56,20 +70,29 @@ body {
 }
 
 .cart_nav {
-  width: 100px;
+  width: 85px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 22px;
 }
 .cart_nav .cart_nav_title {
   font-size: 8px;
   margin-top: 10px;
 }
 
-.hot_issue {
-  width: 250px;
-  background-color: rgb(255, 211, 135);
+.my_page_nav {
+  width: 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+.my_page_nav .my_page_nav_title {
+  font-size: 8px;
+  margin-top: 10px;
 }
 
 .main_menu_wrapper {
@@ -85,6 +108,22 @@ body {
   justify-content: center;
   align-items: center;
 }
+.main_menu_wrapper .main_menu_detail i {
+  color: rgb(66, 66, 66);
+}
+.main_menu_wrapper .delivery_today {
+  width: 130px;
+  height: 100%;
+  background-color: rgb(228, 176, 22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.main_menu_wrapper .delivery_today span {
+  color: white;
+  font-weight: 700;
+}
 
 .main_menu_bar {
   width: 1250px;
@@ -95,5 +134,16 @@ body {
   margin: 0 20px;
 }
 .main_menu_bar li {
-  margin-right: 30px;
+  margin-right: 28px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.main_menu_bar .main_menu01 a {
+  color: red;
+}
+.main_menu_bar .main_menu02 a {
+  color: blueviolet;
+}
+.main_menu_bar .main_menu03 a {
+  color: coral;
 }/*# sourceMappingURL=style.css.map */

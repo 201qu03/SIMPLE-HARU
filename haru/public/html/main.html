@@ -26,8 +26,8 @@
             </ul>
             <div class="main_nav">
                 <div class="logo_wrapper">
-                    <img class="logo" src="" alt="">
-                    로고
+                    <!-- <img class="logo" src="" alt=""> -->
+                    <span class="logo">simple haru</span>
                 </div>
                 <!--검색창-->
                 <div class="search_wrapper">
@@ -38,14 +38,31 @@
                     </fieldset>
                 </div>
                 <div class="like_nav">
-                    <i class="far fa-heart fa-2x"></i>
+                    <i class="far fa-heart fa-1x"></i>
                     <span class="like_nav_title">찜한 상품</span>
                 </div>
                 <div class="cart_nav">
-                    <i class="fas fa-shopping-bag fa-2x"></i>
+                    <i class="fas fa-shopping-bag fa-1x"></i>
                     <span class="cart_nav_title">장바구니</span>
                 </div>
-                <div class="hot_issue">검색랭킹</div>
+                <div class="my_page_nav">
+                    <i class="far fa-user fa-1x"></i>
+                    <span class="my_page_nav_title">마이페이지</span>
+                </div>
+                <div class="hot_issue_wrapper">
+                    <div class="hot_issue_under_line">
+                        <div class="hot_issue">
+                            <ul id="ticker_01" class="ticker">
+                                <li><span class="rank">1. </span><a href="#">가을신상</a></li>
+                                <li><span class="rank">2. </span><a href="#">아우터</a></li>
+                                <li><span class="rank">3. </span><a href="#">가방신상</a></li>
+                                <li><span class="rank">4. </span><a href="#">코트</a></li>
+                            </ul>
+                        </div>
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+
+                </div>
             </div>
             <div class="main_menu_wrapper">
                 <div class="main_menu_detail">
@@ -66,6 +83,7 @@
                     <li class="main_menu12"><a href="">신발</a></li>
                     <li class="main_menu13"><a href="">액세서리</a></li>
                 </ul>
+                <div class="delivery_today"><span>오늘출발</span></div>
             </div>
         </header>
     </div>
@@ -79,6 +97,8 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/73fbcb87e6.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script src="../js/hot_issue.js"></script>
 </body>
 
 </html>
