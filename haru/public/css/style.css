@@ -290,50 +290,109 @@ body #main_wrapper .view_more_wrapper .view_more_btn {
 }
 
 footer {
-  background-color: black;
   width: 100%;
   height: auto;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: white;
+  border-top: 1px solid silver;
 }
 footer .footer_nav_wrapper {
-  width: 1350px;
+  width: 1000px;
   height: 300px;
+  padding-top: 30px;
+  box-sizing: border-box;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  background-color: aliceblue;
 }
 footer .footer_nav_wrapper .customer_center_wrapper,
 footer .footer_nav_wrapper .haru_operating_time_wrapper,
-footer .footer_nav_wrapper .notice_wrapper {
-  width: 33.3%;
-  height: 100%;
-  padding: 30px;
+footer .footer_nav_wrapper .notice_wrapper,
+footer .footer_nav_wrapper .guide_wrapper,
+footer .footer_nav_wrapper .about_us_wrapper {
+  width: 280px;
+  height: 90%;
   box-sizing: border-box;
-  border: 1px solid rgb(148, 141, 141);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+footer .footer_nav_wrapper .haru_operating_time_wrapper {
+  width: 200px;
+}
+footer .footer_nav_wrapper .haru_operating_time_wrapper span {
+  font-weight: 700;
+}
+footer .footer_nav_wrapper .haru_operating_time_wrapper p {
+  color: rgb(98, 98, 98);
+  line-height: 23px;
 }
 footer .footer_nav_wrapper .customer_center_title,
 footer .footer_nav_wrapper .haru_operating_time_title,
-footer .footer_nav_wrapper .notice_title {
+footer .footer_nav_wrapper .notice_title,
+footer .footer_nav_wrapper .guide_title,
+footer .footer_nav_wrapper .about_us_title {
   font-size: 21px;
   font-weight: 700;
+  margin-bottom: 15px;
 }
 footer .footer_nav_wrapper .question_kakao,
 footer .footer_nav_wrapper .return_fast {
-  margin: 20px auto;
-  width: 330px;
-  height: 70px;
-  border-radius: 15px;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
   font-size: 15px;
 }
 footer .footer_nav_wrapper .haru_call_wrapper {
   display: flex;
 }
+footer .footer_nav_wrapper .guide_wrapper,
+footer .footer_nav_wrapper .about_us_wrapper {
+  justify-content: flex-start;
+  width: 180px;
+}
+footer .footer_nav_wrapper .guide_wrapper a,
+footer .footer_nav_wrapper .about_us_wrapper a {
+  margin-bottom: 10px;
+}
+footer .footer_nav_wrapper:nth-child(2) {
+  justify-content: flex-start;
+  height: 150px;
+}
 footer .footer_haru_info {
-  width: 1350px;
+  width: 100%;
   height: 200px;
-  background-color: bisque;
+  background-color: black;
+  padding: 35px 260px;
+  color: white;
+  box-sizing: border-box;
+}
+footer .footer_haru_info .about_haru_title {
+  font-size: 16px;
+  font-weight: 700;
+}
+footer .footer_haru_info ul {
+  margin-top: 20px;
+  color: rgb(207, 207, 207);
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer_haru_info ul li {
+  padding-right: 10px;
+  border-right: 1px solid rgb(78, 78, 78);
+  font-size: 13px;
+  font-weight: 100;
+}
+footer .footer_haru_info ul li:last-child {
+  padding-right: 0;
+  border: none;
+}
+footer .notice_container {
+  width: 100%;
+  height: 180px;
+  border: 0.5px solid rgb(89, 89, 89);
 }/*# sourceMappingURL=style.css.map */
