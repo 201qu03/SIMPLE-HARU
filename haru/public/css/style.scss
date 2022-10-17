@@ -1,6 +1,10 @@
+//css
 @import url(reset.css);
 @import url(search.css);
 @import url(hot_issue.css);
+@import url(view_more_menu.css);
+
+//font
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
 
@@ -27,7 +31,7 @@ body {
 		height: auto;
 		// background-color: aqua;
 	}
-	#main_wrapper {
+	.main_wrapper {
 		width: calc(100vw - 30px);
 		height: auto;
 		// background-color: antiquewhite;
