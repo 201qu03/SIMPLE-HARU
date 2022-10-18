@@ -1,0 +1,11 @@
+#wrapper.manager {
+	width: 1200px;
+	height: calc(100vh - 15px);
+	background-color: #eeeeee;
+
+	.main_menu_wrapper {
+		width: 200px;
+		height: calc(100vh - 5px);
+		background: #d9d9d9;
+	}
+}
